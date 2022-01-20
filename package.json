@@ -1,0 +1,7 @@
+{
+    "name": "milosjasenak",
+    "scripts": {},
+    "dependencies": {
+        "sass": "^1.49.0"
+    }
+}

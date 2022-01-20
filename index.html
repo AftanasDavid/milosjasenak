@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Miloš Jaseňák</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg container">
+        <a class="navbar-brand" href="#"><h1 class="m-0">Miloš <span>Jaseňák</span></h1></a>
+        <span class="nav-hamburger d-block d-xl-none" onclick="openNav()"><i class="fas fa-bars"></i></span>
+        <div class="collapse navbar-collapse navbar-pc">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" id="about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        O mne <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="about">
+                        <a class="dropdown-item" href="#">Link 1</a>
+                        <a class="dropdown-item" href="#">Link 2</a>
+                        <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Finančné služby <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="services">
+                        <a class="dropdown-item" href="#">Link 1</a>
+                        <a class="dropdown-item" href="#">Link 2</a>
+                        <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Referencie klientov</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Cenník</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Spolupráca</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Kontakt</a>
+                </li>
+            </ul>
+            <a class="primary-button" href="#">Naplánujte si stretnutie</a>
+        </div>
+        <div class="mobile-nav">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <ul class="navbar-nav m-auto mb-4">
+                    <li class="nav-item dropdown">
+                        <a href="#" id="about-mobile" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            O mne <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="about-mobile">
+                            <a class="dropdown-item" href="#">Link 1</a>
+                            <a class="dropdown-item" href="#">Link 2</a>
+                            <a class="dropdown-item" href="#">Link 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" id="services-mobile" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Finančné služby <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="services-mobile">
+                            <a class="dropdown-item" href="#">Link 1</a>
+                            <a class="dropdown-item" href="#">Link 2</a>
+                            <a class="dropdown-item" href="#">Link 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Referencie klientov</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Cenník</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Spolupráca</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Kontakt</a>
+                    </li>
+                </ul>
+                <a class="primary-button" href="#">Naplánujte si stretnutie</a>
+            </div>
+        </div>
+    </nav>
+    <section class="about-services">
+        <div class="container container2">
+            <div aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Domov</a></li>
+                    <li class="breadcrumb-item active">Finančné služby</li>
+                </ol>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-5 about-left">
+                    <p class="m-0"><span>Pristupujeme</span> k poskytovanie finančných služieb <span>ako</span> ku komplexnému portfóliu, <span>aby sme dokázali</span> klientom pokryť všetky ich finančné potreby.</p>
+                </div>
+                <div class="col-12 col-md-2 d-flex align-items-center">
+                    <hr>
+                </div>
+                <div class="col-12 col-md-5 about-right">
+                    <p class="m-0">Rozhodnutie robíme na základe porovnania ponúk zo všetkých dostupných bánk a poisťovaní, tak isto analyzujeme a porovnávame investičné produkty.
+                        Klienti tak v spolupráci s nami nie sú vo svojich možnostiach závislí len od jednej konkrétnej značky a inštitúcie.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service text-center text-md-left">
+                        <img src="img/icon.png" alt="Dôchodkové piliere">
+                        <h3>Dôchodkové piliere</h3>
+                        <p>Čo je 2. pilier? Kedy ho uzatvoriť? Aké zvoliť fondy v 2. pilieri, do ktorých sa bude investovať? Kedy sa mi oplatí 3. pilier?</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service text-center text-md-left">
+                        <img src="img/icon.png" alt="Dôchodkové piliere">
+                        <h3>Dôchodkové piliere</h3>
+                        <p>Čo je 2. pilier? Kedy ho uzatvoriť? Aké zvoliť fondy v 2. pilieri, do ktorých sa bude investovať? Kedy sa mi oplatí 3. pilier?</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service text-center text-md-left">
+                        <img src="img/icon.png" alt="Dôchodkové piliere">
+                        <h3>Dôchodkové piliere</h3>
+                        <p>Čo je 2. pilier? Kedy ho uzatvoriť? Aké zvoliť fondy v 2. pilieri, do ktorých sa bude investovať? Kedy sa mi oplatí 3. pilier?</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service text-center text-md-left">
+                        <img src="img/icon.png" alt="Dôchodkové piliere">
+                        <h3>Dôchodkové piliere</h3>
+                        <p>Čo je 2. pilier? Kedy ho uzatvoriť? Aké zvoliť fondy v 2. pilieri, do ktorých sa bude investovať? Kedy sa mi oplatí 3. pilier?</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service text-center text-md-left">
+                        <img src="img/icon.png" alt="Dôchodkové piliere">
+                        <h3>Dôchodkové piliere</h3>
+                        <p>Čo je 2. pilier? Kedy ho uzatvoriť? Aké zvoliť fondy v 2. pilieri, do ktorých sa bude investovať? Kedy sa mi oplatí 3. pilier?</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service text-center text-md-left">
+                        <img src="img/icon.png" alt="Dôchodkové piliere">
+                        <h3>Dôchodkové piliere</h3>
+                        <p>Čo je 2. pilier? Kedy ho uzatvoriť? Aké zvoliť fondy v 2. pilieri, do ktorých sa bude investovať? Kedy sa mi oplatí 3. pilier?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="show-more w-100 text-center">
+                <button class="primary-button">Načítať viac</button>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container container2">
+            <div class="contact-wrapper">
+                <div class="contact-content">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="bigger-text">
+                                <p>Máte otázky?</p>
+                                <p><span>Zanechajte nám</span> správu.</p>
+                            </div>
+                            <p>Ak máte akékoľvek otázky, môžete sa na nás obrátiť a radi vám pomôžeme.</p>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <form>
+                                <div class="form-group">
+                                    <input type="name" class="form-control" id="exampleInputName" placeholder="Vaše meno">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail" placeholder="Vaša emailová adresa">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="exampleFormControlTextarea" rows="3" placeholder="Vaša správa"></textarea>
+                                </div>
+                                <button type="submit" class="primary-button float-right">Odoslať</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="newsletter">
+        <div class="container container2">
+            <div class="newsletter-wrapper">
+                <div class="row">
+                    <div class="col-12 col-lg-5">
+                        <h4>Ostaňte s nami v kontakte.</h4>
+                        <p>Odoberajte od nás novinky formou Newslettra.</p>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Vaša emailová adresa" aria-label="Vaša emailová adresa" aria-describedby="button-newsletter">
+                            <div class="input-group-append">
+                                <button class="primary-button" type="button" id="button-newsletter"><i class="fas fa-location-arrow"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="navbar-bottom">
+        <div class="container container2">
+            <nav class="navbar container px-0">
+                <div id="navbar-bottom" class="w-100">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item dropdown">
+                            <a href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                O mne <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Finančné služby <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Referencie klientov</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Cenník</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Spolupráca</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <footer>
+        <div class="container container2">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="footer-name">
+                        <p>Miloš <span>Jaseňák</span></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 footer-social text-center text-md-right">
+                    <div class="row">
+                        <div class="col-12 col-md-8 d-flex align-items-center justify-content-center justify-content-md-end">
+                            <span class="social-text">Sledujte ma na sociálnych sieťach</span>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <a href="#"><span class="social-icon"><i class="fab fa-facebook-f"></i></span></a>
+                            <a href="#"><span class="social-icon"><i class="fab fa-instagram"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/df8509d0ba.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+</html>
